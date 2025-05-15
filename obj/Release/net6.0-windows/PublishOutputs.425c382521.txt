@@ -1,0 +1,5 @@
+C:\Users\joaol\Desktop\execProjIntegr\TelaFacilLauncher.exe
+C:\Users\joaol\Desktop\execProjIntegr\TelaFacilLauncher.dll
+C:\Users\joaol\Desktop\execProjIntegr\TelaFacilLauncher.deps.json
+C:\Users\joaol\Desktop\execProjIntegr\TelaFacilLauncher.runtimeconfig.json
+C:\Users\joaol\Desktop\execProjIntegr\TelaFacilLauncher.pdb

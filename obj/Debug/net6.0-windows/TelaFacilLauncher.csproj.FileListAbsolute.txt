@@ -1,0 +1,75 @@
+C:\Users\joaol\Desktop\TelaFacilLauncher_com_senhas2\obj\Debug\net6.0-windows\TelaFacilLauncher.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joaol\Desktop\TelaFacilLauncher_com_senhas2\obj\Debug\net6.0-windows\TelaFacilLauncher.AssemblyInfoInputs.cache
+C:\Users\joaol\Desktop\TelaFacilLauncher_com_senhas2\obj\Debug\net6.0-windows\TelaFacilLauncher.AssemblyInfo.cs
+C:\Users\joaol\Desktop\TelaFacilLauncher_com_senhas2\obj\Debug\net6.0-windows\TelaFacilLauncher.csproj.CoreCompileInputs.cache
+C:\Users\joaol\Desktop\TelaFacilLauncher_com_senhas2\obj\Debug\net6.0-windows\TelaFacilLauncher.PasswordVaultForm.resources
+C:\Users\joaol\Desktop\TelaFacilLauncher_com_senhas2\obj\Debug\net6.0-windows\TelaFacilLauncher.csproj.GenerateResource.cache
+C:\Users\joaol\Desktop\TelaFacilLauncher_com_senhas2\obj\Debug\net6.0-windows\TelaFacilLauncher.MainForm.resources
+C:\Users\joaol\Desktop\TelaFacilLauncher_com_senhas2\bin\Debug\net6.0-windows\TelaFacilLauncher.exe
+C:\Users\joaol\Desktop\TelaFacilLauncher_com_senhas2\bin\Debug\net6.0-windows\TelaFacilLauncher.deps.json
+C:\Users\joaol\Desktop\TelaFacilLauncher_com_senhas2\bin\Debug\net6.0-windows\TelaFacilLauncher.runtimeconfig.json
+C:\Users\joaol\Desktop\TelaFacilLauncher_com_senhas2\bin\Debug\net6.0-windows\TelaFacilLauncher.dll
+C:\Users\joaol\Desktop\TelaFacilLauncher_com_senhas2\bin\Debug\net6.0-windows\TelaFacilLauncher.pdb
+C:\Users\joaol\Desktop\TelaFacilLauncher_com_senhas2\obj\Debug\net6.0-windows\TelaFacilLauncher.ConfigForm.resources
+C:\Users\joaol\Desktop\TelaFacilLauncher_com_senhas2\obj\Debug\net6.0-windows\TelaFacilLauncher.dll
+C:\Users\joaol\Desktop\TelaFacilLauncher_com_senhas2\obj\Debug\net6.0-windows\refint\TelaFacilLauncher.dll
+C:\Users\joaol\Desktop\TelaFacilLauncher_com_senhas2\obj\Debug\net6.0-windows\TelaFacilLauncher.pdb
+C:\Users\joaol\Desktop\TelaFacilLauncher_com_senhas2\obj\Debug\net6.0-windows\TelaFacilLauncher.genruntimeconfig.cache
+C:\Users\joaol\Desktop\TelaFacilLauncher_com_senhas2\obj\Debug\net6.0-windows\ref\TelaFacilLauncher.dll
+C:\Users\joaol\Desktop\TelaFacilLauncher_com_senhas2\bin\Debug\net6.0-windows\OpenAI.dll
+C:\Users\joaol\Desktop\TelaFacilLauncher_com_senhas2\bin\Debug\net6.0-windows\System.ClientModel.dll
+C:\Users\joaol\Desktop\TelaFacilLauncher_com_senhas2\bin\Debug\net6.0-windows\System.Diagnostics.DiagnosticSource.dll
+C:\Users\joaol\Desktop\TelaFacilLauncher_com_senhas2\bin\Debug\net6.0-windows\System.Memory.Data.dll
+C:\Users\joaol\Desktop\TelaFacilLauncher_com_senhas2\bin\Debug\net6.0-windows\System.Text.Json.dll
+C:\Users\joaol\Desktop\TelaFacilLauncher_com_senhas2\obj\Debug\net6.0-windows\TelaFacilLauncher.csproj.AssemblyReference.cache
+C:\Users\joaol\Desktop\TelaFacilLauncher_com_senhas2\obj\Debug\net6.0-windows\TelaFaci.6EDF1CCE.Up2Date
+C:\Users\joaol\Desktop\TelaFacilLauncherFuncional\bin\Debug\net6.0-windows\TelaFacilLauncher.exe
+C:\Users\joaol\Desktop\TelaFacilLauncherFuncional\bin\Debug\net6.0-windows\TelaFacilLauncher.deps.json
+C:\Users\joaol\Desktop\TelaFacilLauncherFuncional\bin\Debug\net6.0-windows\TelaFacilLauncher.runtimeconfig.json
+C:\Users\joaol\Desktop\TelaFacilLauncherFuncional\bin\Debug\net6.0-windows\TelaFacilLauncher.dll
+C:\Users\joaol\Desktop\TelaFacilLauncherFuncional\bin\Debug\net6.0-windows\TelaFacilLauncher.pdb
+C:\Users\joaol\Desktop\TelaFacilLauncherFuncional\bin\Debug\net6.0-windows\OpenAI.dll
+C:\Users\joaol\Desktop\TelaFacilLauncherFuncional\bin\Debug\net6.0-windows\System.ClientModel.dll
+C:\Users\joaol\Desktop\TelaFacilLauncherFuncional\bin\Debug\net6.0-windows\System.Diagnostics.DiagnosticSource.dll
+C:\Users\joaol\Desktop\TelaFacilLauncherFuncional\bin\Debug\net6.0-windows\System.Memory.Data.dll
+C:\Users\joaol\Desktop\TelaFacilLauncherFuncional\bin\Debug\net6.0-windows\System.Text.Json.dll
+C:\Users\joaol\Desktop\TelaFacilLauncherFuncional\obj\Debug\net6.0-windows\TelaFacilLauncher.csproj.AssemblyReference.cache
+C:\Users\joaol\Desktop\TelaFacilLauncherFuncional\obj\Debug\net6.0-windows\TelaFacilLauncher.ConfigForm.resources
+C:\Users\joaol\Desktop\TelaFacilLauncherFuncional\obj\Debug\net6.0-windows\TelaFacilLauncher.MainForm.resources
+C:\Users\joaol\Desktop\TelaFacilLauncherFuncional\obj\Debug\net6.0-windows\TelaFacilLauncher.PasswordVaultForm.resources
+C:\Users\joaol\Desktop\TelaFacilLauncherFuncional\obj\Debug\net6.0-windows\TelaFacilLauncher.csproj.GenerateResource.cache
+C:\Users\joaol\Desktop\TelaFacilLauncherFuncional\obj\Debug\net6.0-windows\TelaFacilLauncher.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joaol\Desktop\TelaFacilLauncherFuncional\obj\Debug\net6.0-windows\TelaFacilLauncher.AssemblyInfoInputs.cache
+C:\Users\joaol\Desktop\TelaFacilLauncherFuncional\obj\Debug\net6.0-windows\TelaFacilLauncher.AssemblyInfo.cs
+C:\Users\joaol\Desktop\TelaFacilLauncherFuncional\obj\Debug\net6.0-windows\TelaFacilLauncher.csproj.CoreCompileInputs.cache
+C:\Users\joaol\Desktop\TelaFacilLauncherFuncional\obj\Debug\net6.0-windows\TelaFaci.6EDF1CCE.Up2Date
+C:\Users\joaol\Desktop\TelaFacilLauncherFuncional\obj\Debug\net6.0-windows\TelaFacilLauncher.dll
+C:\Users\joaol\Desktop\TelaFacilLauncherFuncional\obj\Debug\net6.0-windows\refint\TelaFacilLauncher.dll
+C:\Users\joaol\Desktop\TelaFacilLauncherFuncional\obj\Debug\net6.0-windows\TelaFacilLauncher.pdb
+C:\Users\joaol\Desktop\TelaFacilLauncherFuncional\obj\Debug\net6.0-windows\TelaFacilLauncher.genruntimeconfig.cache
+C:\Users\joaol\Desktop\TelaFacilLauncherFuncional\obj\Debug\net6.0-windows\ref\TelaFacilLauncher.dll
+C:\Users\oluca\OneDrive\Desktop\TelaFacilLauncherFuncional (2)\TelaFacilLauncherFuncional\bin\Debug\net6.0-windows\TelaFacilLauncher.exe
+C:\Users\oluca\OneDrive\Desktop\TelaFacilLauncherFuncional (2)\TelaFacilLauncherFuncional\bin\Debug\net6.0-windows\TelaFacilLauncher.deps.json
+C:\Users\oluca\OneDrive\Desktop\TelaFacilLauncherFuncional (2)\TelaFacilLauncherFuncional\bin\Debug\net6.0-windows\TelaFacilLauncher.runtimeconfig.json
+C:\Users\oluca\OneDrive\Desktop\TelaFacilLauncherFuncional (2)\TelaFacilLauncherFuncional\bin\Debug\net6.0-windows\TelaFacilLauncher.dll
+C:\Users\oluca\OneDrive\Desktop\TelaFacilLauncherFuncional (2)\TelaFacilLauncherFuncional\bin\Debug\net6.0-windows\TelaFacilLauncher.pdb
+C:\Users\oluca\OneDrive\Desktop\TelaFacilLauncherFuncional (2)\TelaFacilLauncherFuncional\bin\Debug\net6.0-windows\OpenAI.dll
+C:\Users\oluca\OneDrive\Desktop\TelaFacilLauncherFuncional (2)\TelaFacilLauncherFuncional\bin\Debug\net6.0-windows\System.ClientModel.dll
+C:\Users\oluca\OneDrive\Desktop\TelaFacilLauncherFuncional (2)\TelaFacilLauncherFuncional\bin\Debug\net6.0-windows\System.Diagnostics.DiagnosticSource.dll
+C:\Users\oluca\OneDrive\Desktop\TelaFacilLauncherFuncional (2)\TelaFacilLauncherFuncional\bin\Debug\net6.0-windows\System.Memory.Data.dll
+C:\Users\oluca\OneDrive\Desktop\TelaFacilLauncherFuncional (2)\TelaFacilLauncherFuncional\bin\Debug\net6.0-windows\System.Text.Json.dll
+C:\Users\oluca\OneDrive\Desktop\TelaFacilLauncherFuncional (2)\TelaFacilLauncherFuncional\obj\Debug\net6.0-windows\TelaFacilLauncher.csproj.AssemblyReference.cache
+C:\Users\oluca\OneDrive\Desktop\TelaFacilLauncherFuncional (2)\TelaFacilLauncherFuncional\obj\Debug\net6.0-windows\TelaFacilLauncher.ConfigForm.resources
+C:\Users\oluca\OneDrive\Desktop\TelaFacilLauncherFuncional (2)\TelaFacilLauncherFuncional\obj\Debug\net6.0-windows\TelaFacilLauncher.MainForm.resources
+C:\Users\oluca\OneDrive\Desktop\TelaFacilLauncherFuncional (2)\TelaFacilLauncherFuncional\obj\Debug\net6.0-windows\TelaFacilLauncher.PasswordVaultForm.resources
+C:\Users\oluca\OneDrive\Desktop\TelaFacilLauncherFuncional (2)\TelaFacilLauncherFuncional\obj\Debug\net6.0-windows\TelaFacilLauncher.csproj.GenerateResource.cache
+C:\Users\oluca\OneDrive\Desktop\TelaFacilLauncherFuncional (2)\TelaFacilLauncherFuncional\obj\Debug\net6.0-windows\TelaFacilLauncher.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oluca\OneDrive\Desktop\TelaFacilLauncherFuncional (2)\TelaFacilLauncherFuncional\obj\Debug\net6.0-windows\TelaFacilLauncher.AssemblyInfoInputs.cache
+C:\Users\oluca\OneDrive\Desktop\TelaFacilLauncherFuncional (2)\TelaFacilLauncherFuncional\obj\Debug\net6.0-windows\TelaFacilLauncher.AssemblyInfo.cs
+C:\Users\oluca\OneDrive\Desktop\TelaFacilLauncherFuncional (2)\TelaFacilLauncherFuncional\obj\Debug\net6.0-windows\TelaFacilLauncher.csproj.CoreCompileInputs.cache
+C:\Users\oluca\OneDrive\Desktop\TelaFacilLauncherFuncional (2)\TelaFacilLauncherFuncional\obj\Debug\net6.0-windows\TelaFaci.6EDF1CCE.Up2Date
+C:\Users\oluca\OneDrive\Desktop\TelaFacilLauncherFuncional (2)\TelaFacilLauncherFuncional\obj\Debug\net6.0-windows\TelaFacilLauncher.dll
+C:\Users\oluca\OneDrive\Desktop\TelaFacilLauncherFuncional (2)\TelaFacilLauncherFuncional\obj\Debug\net6.0-windows\refint\TelaFacilLauncher.dll
+C:\Users\oluca\OneDrive\Desktop\TelaFacilLauncherFuncional (2)\TelaFacilLauncherFuncional\obj\Debug\net6.0-windows\TelaFacilLauncher.pdb
+C:\Users\oluca\OneDrive\Desktop\TelaFacilLauncherFuncional (2)\TelaFacilLauncherFuncional\obj\Debug\net6.0-windows\TelaFacilLauncher.genruntimeconfig.cache
+C:\Users\oluca\OneDrive\Desktop\TelaFacilLauncherFuncional (2)\TelaFacilLauncherFuncional\obj\Debug\net6.0-windows\ref\TelaFacilLauncher.dll

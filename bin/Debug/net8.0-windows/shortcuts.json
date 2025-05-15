@@ -1,0 +1,14 @@
+[
+  {
+    "Nome": "Santander",
+    "Caminho": "https://www.santander.com.br/"
+  },
+  {
+    "Nome": "Facebook",
+    "Caminho": "https://www.facebook.com"
+  },
+  {
+    "Nome": "Whatsapp",
+    "Caminho": "https://web.whatsapp.com/"
+  }
+]

@@ -1,0 +1,10 @@
+C:\Users\joaol\Documents\execIntegradorIA\TelaFacilLauncher.exe
+C:\Users\joaol\Documents\execIntegradorIA\TelaFacilLauncher.dll
+C:\Users\joaol\Documents\execIntegradorIA\TelaFacilLauncher.deps.json
+C:\Users\joaol\Documents\execIntegradorIA\TelaFacilLauncher.runtimeconfig.json
+C:\Users\joaol\Documents\execIntegradorIA\TelaFacilLauncher.pdb
+C:\Users\joaol\Documents\execIntegradorIA\OpenAI.dll
+C:\Users\joaol\Documents\execIntegradorIA\System.ClientModel.dll
+C:\Users\joaol\Documents\execIntegradorIA\System.Diagnostics.DiagnosticSource.dll
+C:\Users\joaol\Documents\execIntegradorIA\System.Memory.Data.dll
+C:\Users\joaol\Documents\execIntegradorIA\System.Text.Json.dll
