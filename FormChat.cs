@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Npgsql;
+using System;
 using System.Drawing;
 using System.Net.Http;
 using System.Text;
@@ -11,6 +12,7 @@ namespace TelaFacilLauncher
 {
     public class FormChat : MaterialForm
     {
+
         private RichTextBox chatBox;
         private TextBox inputBox;
         private Button btnEnviar;

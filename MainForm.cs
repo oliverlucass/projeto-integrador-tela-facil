@@ -1,4 +1,5 @@
 ﻿using System;
+using Npgsql;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Drawing;
@@ -9,6 +10,7 @@ using ComponentFactory.Krypton.Toolkit;
 using MaterialSkin;
 using MaterialSkin.Controls;
 using static System.Windows.Forms.DataFormats;
+using System.Runtime.Intrinsics.X86;
 
 
 namespace TelaFacilLauncher
@@ -204,24 +206,38 @@ namespace TelaFacilLauncher
             }
         }
 
-        private void materialButton2_Click(object sender, EventArgs e)
+        private async void materialButton2_Click(object sender, EventArgs e)
         {
+            var baseUrl = "https://uqpwewtyurmtadidficb.supabase.co";
+            var supabaseRestUrl = baseUrl + "/rest/v1/";
+            var apiKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVxcHdld3R5dXJtdGFkaWRmaWNiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDkxODExMDIsImV4cCI6MjA2NDc1NzEwMn0.Ke1knn5AyaYN6tlmB_U-Yuj4bbo_iGjuIRth8HvxWug";
+            var email = "teste_telafacil@gmail.com";
+            var senha = "admin987@";
+
+            var auth = new SupabaseAuth(baseUrl, apiKey);
+            var jwt = await auth.LoginAndGetAccessTokenAsync(email, senha);
+
+            var supabaseApi = new SupabaseApi(baseUrl, jwt, apiKey);
+
             var configForm = new ConfigForm(atalhos);
             var resultado = configForm.ShowDialog();
-            //CriarTituloDinamico();
-            //LoadAtalhos();
 
             if (resultado == DialogResult.OK && configForm.NovoAtalho != null)
             {
-                atalhos.Add(configForm.NovoAtalho);
-                CarregarBotoes();
-            }else
-            {
-                CarregarBotoes();
-            }
+                var atalho = configForm.NovoAtalho;
+                var insereAtalho = await supabaseApi.InserirAtalhoAsync(atalho.Nome, atalho.Caminho);
+                Console.WriteLine(resultado);
 
-            //atalhos.Add(configForm.NovoAtalho);
-            //CarregarBotoes();
+                // Atualiza a lista local e recarrega os botões
+                atalhos.Add(atalho);
+                CarregarBotoes();
+
+
+            }
+            else
+            {
+                CarregarBotoes(); // Mesmo que cancele, atualiza visualmente os atalhos
+            }
         }
 
         private void materialFloatingActionButton1_Click(object sender, EventArgs e)

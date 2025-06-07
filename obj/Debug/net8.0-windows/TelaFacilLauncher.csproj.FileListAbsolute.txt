@@ -33,3 +33,6 @@ C:\Users\oluca\OneDrive\Desktop\TelaFacilLauncherFuncional (2)\TelaFacilLauncher
 C:\Users\oluca\OneDrive\Desktop\TelaFacilLauncherFuncional (2)\TelaFacilLauncherFuncional\bin\Debug\net8.0-windows\ComponentFactory.Krypton.Workspace.pdb
 C:\Users\oluca\OneDrive\Desktop\TelaFacilLauncherFuncional (2)\TelaFacilLauncherFuncional\bin\Debug\net8.0-windows\MaterialSkin.dll
 C:\Users\oluca\OneDrive\Desktop\TelaFacilLauncherFuncional (2)\TelaFacilLauncherFuncional\obj\Debug\net8.0-windows\TelaFacilLauncher.Properties.Resources.resources
+C:\Users\oluca\OneDrive\Desktop\TelaFacilLauncherFuncional (2)\TelaFacilLauncherFuncional\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\oluca\OneDrive\Desktop\TelaFacilLauncherFuncional (2)\TelaFacilLauncherFuncional\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\oluca\OneDrive\Desktop\TelaFacilLauncherFuncional (2)\TelaFacilLauncherFuncional\bin\Debug\net8.0-windows\Npgsql.dll

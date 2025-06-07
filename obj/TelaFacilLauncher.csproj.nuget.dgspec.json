@@ -54,6 +54,10 @@
               "target": "Package",
               "version": "[2.3.1, )"
             },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
             "OpenAI": {
               "target": "Package",
               "version": "[2.1.0, )"

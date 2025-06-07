@@ -10,6 +10,7 @@ namespace TelaFacilLauncher
 {
     public partial class ConfigForm : MaterialForm
     {
+
         private TextBox txtNome;
         private TextBox txtCaminho;
         private Button btnSalvar;
