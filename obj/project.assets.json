@@ -545,11 +545,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\oluca\\OneDrive\\Desktop\\TelaFacilLauncherFuncional (2)\\TelaFacilLauncherFuncional\\TelaFacilLauncher.csproj",
+      "projectUniqueName": "C:\\Users\\oluca\\source\\repos\\projeto-integrador-tela-facil\\TelaFacilLauncher.csproj",
       "projectName": "TelaFacilLauncher",
-      "projectPath": "C:\\Users\\oluca\\OneDrive\\Desktop\\TelaFacilLauncherFuncional (2)\\TelaFacilLauncherFuncional\\TelaFacilLauncher.csproj",
+      "projectPath": "C:\\Users\\oluca\\source\\repos\\projeto-integrador-tela-facil\\TelaFacilLauncher.csproj",
       "packagesPath": "C:\\Users\\oluca\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\oluca\\OneDrive\\Desktop\\TelaFacilLauncherFuncional (2)\\TelaFacilLauncherFuncional\\obj\\",
+      "outputPath": "C:\\Users\\oluca\\source\\repos\\projeto-integrador-tela-facil\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

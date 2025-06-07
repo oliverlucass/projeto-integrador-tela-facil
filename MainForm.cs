@@ -6,7 +6,6 @@ using System.Drawing;
 using System.IO;
 using System.Text.Json;
 using System.Windows.Forms;
-using ComponentFactory.Krypton.Toolkit;
 using MaterialSkin;
 using MaterialSkin.Controls;
 using static System.Windows.Forms.DataFormats;

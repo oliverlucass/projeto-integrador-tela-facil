@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oRAQq/d+J3I=",
+  "dgSpecHash": "GG34z2LC5XE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\oluca\\OneDrive\\Desktop\\TelaFacilLauncherFuncional (2)\\TelaFacilLauncherFuncional\\TelaFacilLauncher.csproj",
+  "projectFilePath": "C:\\Users\\oluca\\source\\repos\\projeto-integrador-tela-facil\\TelaFacilLauncher.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\oluca\\.nuget\\packages\\materialskin.2\\2.3.1\\materialskin.2.2.3.1.nupkg.sha512",
     "C:\\Users\\oluca\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
