@@ -15,33 +15,29 @@ public class SupabaseApi
 
     public SupabaseApi(string baseUrl, string jwtToken, string apiKey)
     {
-        _baseUrl = baseUrl;  // ex: https://<seu-projeto>.supabase.co/rest/v1/
+        _baseUrl = baseUrl;  
         _httpClient = new HttpClient();
-
-        // Header obrigatório para autenticação da API
         _httpClient.DefaultRequestHeaders.Add("apikey", apiKey);
-
-        // Header Authorization com o JWT obtido no login
         _httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", jwtToken);
-
-        // Aceitar JSON
         _httpClient.DefaultRequestHeaders.Add("Accept", "application/json");
     }
 
-    public async Task<List<TelaFacilLauncher.Shortcut>> GetAtalhosAsync()
+    public async Task<List<TelaFacilLauncher.Shortcut>> GetAtalhosAsync(string nome_atalho = null)
     {
         string url = _baseUrl + "/rest/v1/atalhos";
 
-        var request = new HttpRequestMessage(HttpMethod.Get, url);
+        if (!string.IsNullOrWhiteSpace(nome_atalho))
+        {
+            url += "?nome_atalho=eq." + Uri.EscapeDataString(nome_atalho) + "&select=*";
+        }
 
-        // Cabeçalhos padrão Supabase
+        var request = new HttpRequestMessage(HttpMethod.Get, url);
         request.Headers.Add("Accept", "application/json");
 
         var response = await _httpClient.SendAsync(request);
         response.EnsureSuccessStatusCode();
 
         var responseData = await response.Content.ReadAsStringAsync();
-
 
         // Converte o JSON para uma lista de objetos Atalho
         var atalhos = JsonConvert.DeserializeObject<List<TelaFacilLauncher.Shortcut>>(responseData);
@@ -67,23 +63,46 @@ public class SupabaseApi
         response.EnsureSuccessStatusCode();
 
         var responseData = await response.Content.ReadAsStringAsync();
-        return responseData; // Normalmente retorna o objeto inserido
+        return responseData;
     }
 
     public async Task<string> DeletarAtalhoAsync(string nome_atalho)
     {
-        //string url = $"{_baseUrl}/rest/v1/atalhos?id=eq.{nome_atalho}";
         string url = _baseUrl + "/rest/v1/atalhos?nome_atalho=eq." + nome_atalho;
 
         var request = new HttpRequestMessage(HttpMethod.Delete, url);
 
-        // Importante: para que o Supabase retorne dados após o DELETE (opcional)
         request.Headers.Add("Prefer", "return=representation");
 
         var response = await _httpClient.SendAsync(request);
         response.EnsureSuccessStatusCode();
 
         var responseData = await response.Content.ReadAsStringAsync();
-        return responseData; // Pode conter os dados deletados, dependendo da configuração
+        return responseData; 
+    }
+
+    public async Task<string> AtualizarAtalhoAsync(string nomeOriginal, string novoNome, string novoCaminho)
+    {
+        string url = _baseUrl + "/rest/v1/atalhos?nome_atalho=eq." + Uri.EscapeDataString(nomeOriginal);
+
+        var dadosAtualizados = new
+        {
+            nome_atalho = novoNome,
+            caminho_atalho = novoCaminho
+        };
+
+        string json = System.Text.Json.JsonSerializer.Serialize(dadosAtualizados);
+        var content = new StringContent(json, Encoding.UTF8, "application/json");
+
+        var request = new HttpRequestMessage(HttpMethod.Patch, url);
+        request.Content = content;
+
+        request.Headers.Add("Prefer", "return=representation");
+
+        var response = await _httpClient.SendAsync(request);
+        response.EnsureSuccessStatusCode();
+
+        var responseData = await response.Content.ReadAsStringAsync();
+        return responseData;
     }
 }

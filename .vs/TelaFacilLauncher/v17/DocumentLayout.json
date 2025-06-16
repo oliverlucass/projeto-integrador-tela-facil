@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\oluca\\source\\repos\\projeto-integrador-tela-facil\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CEB2DA3A-4948-105A-9D8C-EFF5F5EAEB2E}|TelaFacilLauncher.csproj|c:\\users\\oluca\\source\\repos\\projeto-integrador-tela-facil\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CEB2DA3A-4948-105A-9D8C-EFF5F5EAEB2E}|TelaFacilLauncher.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CEB2DA3A-4948-105A-9D8C-EFF5F5EAEB2E}|TelaFacilLauncher.csproj|c:\\users\\oluca\\source\\repos\\projeto-integrador-tela-facil\\formchat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CEB2DA3A-4948-105A-9D8C-EFF5F5EAEB2E}|TelaFacilLauncher.csproj|solutionrelative:formchat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CEB2DA3A-4948-105A-9D8C-EFF5F5EAEB2E}|TelaFacilLauncher.csproj|c:\\users\\oluca\\source\\repos\\projeto-integrador-tela-facil\\formchat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CEB2DA3A-4948-105A-9D8C-EFF5F5EAEB2E}|TelaFacilLauncher.csproj|solutionrelative:formchat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{CEB2DA3A-4948-105A-9D8C-EFF5F5EAEB2E}|TelaFacilLauncher.csproj|c:\\users\\oluca\\source\\repos\\projeto-integrador-tela-facil\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEB2DA3A-4948-105A-9D8C-EFF5F5EAEB2E}|TelaFacilLauncher.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEB2DA3A-4948-105A-9D8C-EFF5F5EAEB2E}|TelaFacilLauncher.csproj|c:\\users\\oluca\\source\\repos\\projeto-integrador-tela-facil\\configform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEB2DA3A-4948-105A-9D8C-EFF5F5EAEB2E}|TelaFacilLauncher.csproj|solutionrelative:configform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEB2DA3A-4948-105A-9D8C-EFF5F5EAEB2E}|TelaFacilLauncher.csproj|c:\\users\\oluca\\source\\repos\\projeto-integrador-tela-facil\\supabaseapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEB2DA3A-4948-105A-9D8C-EFF5F5EAEB2E}|TelaFacilLauncher.csproj|solutionrelative:supabaseapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEB2DA3A-4948-105A-9D8C-EFF5F5EAEB2E}|TelaFacilLauncher.csproj|c:\\users\\oluca\\source\\repos\\projeto-integrador-tela-facil\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEB2DA3A-4948-105A-9D8C-EFF5F5EAEB2E}|TelaFacilLauncher.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,17 +30,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainForm.cs",
               "DocumentMoniker": "C:\\Users\\oluca\\source\\repos\\projeto-integrador-tela-facil\\MainForm.cs",
               "RelativeDocumentMoniker": "MainForm.cs",
               "ToolTip": "C:\\Users\\oluca\\source\\repos\\projeto-integrador-tela-facil\\MainForm.cs",
               "RelativeToolTip": "MainForm.cs",
-              "ViewState": "AgIAAFYAAAAAAAAAAAAowE0AAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAIYAAAAAAAAAAAAQwJMAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-02T14:34:59.947Z",
               "IsPinned": true,
@@ -40,28 +48,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "FormChat.cs",
               "DocumentMoniker": "C:\\Users\\oluca\\source\\repos\\projeto-integrador-tela-facil\\FormChat.cs",
               "RelativeDocumentMoniker": "FormChat.cs",
               "ToolTip": "C:\\Users\\oluca\\source\\repos\\projeto-integrador-tela-facil\\FormChat.cs",
               "RelativeToolTip": "FormChat.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAewBMAAADOAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAADOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T18:54:34.732Z",
+              "WhenOpened": "2025-06-16T20:42:44.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SupabaseApi.cs",
+              "DocumentMoniker": "C:\\Users\\oluca\\source\\repos\\projeto-integrador-tela-facil\\SupabaseApi.cs",
+              "RelativeDocumentMoniker": "SupabaseApi.cs",
+              "ToolTip": "C:\\Users\\oluca\\source\\repos\\projeto-integrador-tela-facil\\SupabaseApi.cs",
+              "RelativeToolTip": "SupabaseApi.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAqwB0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T19:41:33.593Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "FormChat.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\oluca\\source\\repos\\projeto-integrador-tela-facil\\FormChat.cs",
-              "RelativeDocumentMoniker": "FormChat.cs",
-              "ToolTip": "C:\\Users\\oluca\\source\\repos\\projeto-integrador-tela-facil\\FormChat.cs [Design]",
-              "RelativeToolTip": "FormChat.cs [Design]",
+              "Title": "ConfigForm.cs",
+              "DocumentMoniker": "C:\\Users\\oluca\\source\\repos\\projeto-integrador-tela-facil\\ConfigForm.cs",
+              "RelativeDocumentMoniker": "ConfigForm.cs",
+              "ToolTip": "C:\\Users\\oluca\\source\\repos\\projeto-integrador-tela-facil\\ConfigForm.cs",
+              "RelativeToolTip": "ConfigForm.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAQwEEAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T18:54:22.438Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-06-16T19:34:06.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\oluca\\source\\repos\\projeto-integrador-tela-facil\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\oluca\\source\\repos\\projeto-integrador-tela-facil\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T19:33:35.122Z",
+              "EditorCaption": ""
             }
           ]
         }

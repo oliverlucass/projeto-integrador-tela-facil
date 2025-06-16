@@ -17,7 +17,7 @@ namespace TelaFacilLauncher
         private TextBox inputBox;
         private Button btnEnviar;
 
-        private readonly string apiKey = "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";
+        private readonly string apiKey = "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";
 
         public FormChat()
         {

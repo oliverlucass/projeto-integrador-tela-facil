@@ -67,7 +67,7 @@ namespace TelaFacilLauncher
         private async void CarregarBotoes()
         {
             flowLayoutPanel1.Controls.Clear();
-            flowLayoutPanel1.Controls.Add(materialButton1);
+
 
             var baseUrl = "https://uqpwewtyurmtadidficb.supabase.co";
             var supabaseRestUrl = baseUrl + "/rest/v1/";
@@ -82,7 +82,7 @@ namespace TelaFacilLauncher
 
 
             var carregarAtalhos = await supabaseApi.GetAtalhosAsync();
-            //MessageBox.Show("Lista carregou");
+
             foreach (var a in carregarAtalhos)
             {
                 var botao = new MaterialButton
@@ -106,38 +106,10 @@ namespace TelaFacilLauncher
                     AbrirAtalho(a.caminho_atalho);
                 };
 
+                flowLayoutPanel1.Controls.Add(materialButton1);
                 flowLayoutPanel1.Controls.Add(botao);
             }
 
-
-            //flowLayoutPanel1.Controls.Add(materialButton3);
-            //foreach (var nome in atalhos)
-            //{
-            //    var botao = new MaterialButton
-            //    {
-            //        Text = nome.nome_atalho,
-            //        AutoSize = false,
-            //        MinimumSize = new Size(110, 120),
-            //        MaximumSize = new Size(522, 120),
-            //        //Margin = new Padding(5),
-            //        HighEmphasis = true,
-            //        Margin = new Padding(12, 6, 12, 6),
-            //        Density = MaterialButton.MaterialButtonDensity.Default,
-            //        AutoSizeMode = AutoSizeMode.GrowAndShrink,
-
-            //    };
-            //    botao.Size = botao.PreferredSize;
-
-            //    // Exemplo de evento de clique para cada botão
-            //    botao.Click += (sender, e) =>
-            //    {
-            //        AbrirAtalho(nome.caminho_atalho);
-            //    };
-
-            //    flowLayoutPanel1.Controls.Add(botao);
-            //}
-
-            // Recalcula o layout do FlowLayoutPanel
             flowLayoutPanel1.PerformLayout();
             flowLayoutPanel1.Invalidate();
         }
@@ -146,8 +118,23 @@ namespace TelaFacilLauncher
         {
             try
             {
-                if (caminho.StartsWith("http"))
+                if (caminho.StartsWith("http", StringComparison.OrdinalIgnoreCase))
                 {
+                    // Site
+                    Process.Start(new ProcessStartInfo
+                    {
+                        FileName = caminho,
+                        UseShellExecute = true
+                    });
+                }
+                else if (Directory.Exists(caminho))
+                {
+                    // Pasta local
+                    Process.Start("explorer.exe", caminho);
+                }
+                else if (File.Exists(caminho))
+                {
+                    // Arquivo ou executável local
                     Process.Start(new ProcessStartInfo
                     {
                         FileName = caminho,
@@ -156,7 +143,7 @@ namespace TelaFacilLauncher
                 }
                 else
                 {
-                    Process.Start(caminho);
+                    MessageBox.Show("Caminho inválido ou não encontrado.");
                 }
             }
             catch (Exception ex)
