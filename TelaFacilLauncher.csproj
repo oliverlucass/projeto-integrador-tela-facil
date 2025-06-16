@@ -11,6 +11,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Images\icons8-chatbot-96.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Images\icons8-chatbot-96.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="telaFacil_round.ico" />
   </ItemGroup>
 

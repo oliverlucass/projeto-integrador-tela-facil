@@ -17,11 +17,7 @@ namespace TelaFacilLauncher
         private TextBox inputBox;
         private Button btnEnviar;
 
-<<<<<<< HEAD
         private readonly string apiKey = "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";
-=======
-        private readonly string apiKey = "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";
->>>>>>> eaaa9718d013aea533b2811cf23cad79dba6290b
 
         public FormChat()
         {
@@ -100,7 +96,7 @@ namespace TelaFacilLauncher
             {
                 model = "gpt-3.5-turbo",
                 messages = new[] {
-                    new { role = "system", content = "Você é um assistente de um APP chamado 'TelaFacil', que tem o intuíto de auxiliar idosos,aja calmo e extremamente didático. Sempre explique as coisas de forma simples e com paciência, como se estivesse ensinando um idoso com pouca experiência em informática. A função do APP é armazenar atalhos (para web app ou desktop app) em formato de botões que ficam visiveis na tela para o idoso apenas clicar no botão e ser redirecionado para a aplicação." },
+                    new { role = "system", content = "Você é um assistente de um APP chamado 'TelaFacil', que tem o intuíto de auxiliar idosos,aja calmo e extremamente didático. Sempre explique as coisas de forma simples e com paciência, como se estivesse ensinando um idoso com pouca experiência em informática. A função do APP é armazenar atalhos (para web app ou desktop app) em formato de botões que ficam visiveis na tela para o idoso apenas clicar no botão e ser redirecionado para a aplicação. A tela é constituidade por 3 botões principais, o Botão 'Editar atalhos que abre uma nova tela com campos de nome e caminho para ser adicionado um novo atalho. Um botão 'Minhas Senhas', que consiste em um cofre de senhas. O botão da ajudante virtual(você Ia) que fica ao lado do botão pincipal 'Editar Atalhos''" },
                     new { role = "user", content = pergunta }
                 }
             };

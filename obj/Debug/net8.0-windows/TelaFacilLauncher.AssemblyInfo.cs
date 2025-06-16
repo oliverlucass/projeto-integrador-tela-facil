@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TelaFacilLauncher")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6885d2cc2ef716633555991779b4841b38a6a880")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bd69bb635f38363175a2a0ecc5c4f3a5f33bd1e6")]
 [assembly: System.Reflection.AssemblyProductAttribute("TelaFacilLauncher")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TelaFacilLauncher")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

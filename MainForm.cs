@@ -54,10 +54,9 @@ namespace TelaFacilLauncher
 
 
             this.Text = string.Empty;
-            //flowLayoutPanel1.BackColor = Color.LightSteelBlue;
 
-            materialFloatingActionButton1.Image = Image.FromFile(@"C:\Users\oluca\Downloads\icons8-chatbot-96.png");
-
+            string imagePath = Path.Combine(Application.StartupPath, "Images", "icons8-chatbot-96.png");
+            materialFloatingActionButton1.Image = Image.FromFile(imagePath);
 
             this.WindowState = FormWindowState.Maximized;
 
