@@ -65,3 +65,5 @@ C:\Users\oluca\source\repos\projeto-integrador-tela-facil\bin\Debug\net8.0-windo
 C:\Users\oluca\source\repos\projeto-integrador-tela-facil\obj\Debug\net8.0-windows\TelaFaci.6EDF1CCE.Up2Date
 C:\Users\oluca\source\repos\projeto-integrador-tela-facil\obj\Debug\net8.0-windows\TelaFacilLauncher.genruntimeconfig.cache
 C:\Users\oluca\source\repos\projeto-integrador-tela-facil\obj\Debug\net8.0-windows\ref\TelaFacilLauncher.dll
+C:\Users\oluca\source\repos\projeto-integrador-tela-facil\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+C:\Users\oluca\source\repos\projeto-integrador-tela-facil\obj\Debug\net8.0-windows\TelaFacilLauncher.FormChat.resources

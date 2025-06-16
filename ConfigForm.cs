@@ -47,7 +47,7 @@ namespace TelaFacilLauncher
             listAtalhos.Items.Clear();
             foreach (var atalho in atalhos)
             {
-                listAtalhos.Items.Add($"{atalho.Nome} | {atalho.Caminho}");
+                listAtalhos.Items.Add($"{atalho.nome_atalho} | {atalho.caminho_atalho}");
             }
         }
 
@@ -73,7 +73,7 @@ namespace TelaFacilLauncher
 
             // Botão de excluir
             Button btnExcluir = new Button { Text = "Excluir", Left = 230, Top = 160, Width = 100 };
-            btnExcluir.Click += (s, e) =>
+            btnExcluir.Click += async (s, e) =>
             {
                 int index = listAtalhos.SelectedIndex;
                 if (index >= 0 && index < atalhos.Count)
@@ -81,12 +81,51 @@ namespace TelaFacilLauncher
                     var confirmar = MessageBox.Show("Deseja excluir este atalho?", "Confirmar", MessageBoxButtons.YesNo);
                     if (confirmar == DialogResult.Yes)
                     {
-                        atalhos.RemoveAt(index);
-                        //File.WriteAllText(path, JsonSerializer.Serialize(atalhos, new JsonSerializerOptions { WriteIndented = true }));
-                        AtualizarLista();
+                        var atalhoSelecionado = atalhos[index].nome_atalho;
+
+                        try
+                        {
+                            // Supabase config
+                            var baseUrl = "https://uqpwewtyurmtadidficb.supabase.co";
+                            var apiKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVxcHdld3R5dXJtdGFkaWRmaWNiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDkxODExMDIsImV4cCI6MjA2NDc1NzEwMn0.Ke1knn5AyaYN6tlmB_U-Yuj4bbo_iGjuIRth8HvxWug";
+                            var email = "teste_telafacil@gmail.com";
+                            var senha = "admin987@";
+
+                            var auth = new SupabaseAuth(baseUrl, apiKey);
+                            var jwt = await auth.LoginAndGetAccessTokenAsync(email, senha);
+
+                            var supabaseApi = new SupabaseApi(baseUrl, jwt, apiKey);
+
+                            // Chamada DELETE no Supabase
+                            await supabaseApi.DeletarAtalhoAsync(atalhoSelecionado);
+
+                            // Remove da lista local após sucesso no Supabase
+                            atalhos.RemoveAt(index);
+                            AtualizarLista();
+
+                            MessageBox.Show("Atalho excluído com sucesso!");
+                        }
+                        catch (Exception ex)
+                        {
+                            MessageBox.Show("Erro ao excluir atalho: " + ex.Message + "\n\n" + ex.StackTrace);
+                        }
                     }
                 }
             };
+            //btnExcluir.Click += (s, e) =>
+            //{
+            //    int index = listAtalhos.SelectedIndex;
+            //    if (index >= 0 && index < atalhos.Count)
+            //    {
+            //        var confirmar = MessageBox.Show("Deseja excluir este atalho?", "Confirmar", MessageBoxButtons.YesNo);
+            //        if (confirmar == DialogResult.Yes)
+            //        {
+            //            atalhos.RemoveAt(index);
+            //            //File.WriteAllText(path, JsonSerializer.Serialize(atalhos, new JsonSerializerOptions { WriteIndented = true }));
+            //            AtualizarLista();
+            //        }
+            //    }
+            //};
 
             this.Controls.Add(lblNome);
             this.Controls.Add(txtNome);
@@ -130,8 +169,8 @@ namespace TelaFacilLauncher
 
             NovoAtalho = new Shortcut
             {
-                Nome = txtNome.Text,
-                Caminho = txtCaminho.Text,
+                nome_atalho = txtNome.Text,
+                caminho_atalho = txtCaminho.Text,
             };
 
             this.DialogResult = DialogResult.OK;

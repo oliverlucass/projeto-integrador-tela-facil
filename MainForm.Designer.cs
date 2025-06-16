@@ -197,7 +197,6 @@ namespace TelaFacilLauncher
             MaximumSize = new Size(1044, 788);
             Name = "MainForm";
             Text = "TelaFácil Launcher";
-            Load += MainForm_Load;
             flowLayoutPanel1.ResumeLayout(false);
             ResumeLayout(false);
 

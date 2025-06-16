@@ -1,8 +1,12 @@
 using System;
 using System.Net.Http;
 using System.Net.Http.Headers;
+using System.Net.Http.Json;
 using System.Text;
+using System.Text.Json;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
+using Newtonsoft.Json;
 
 public class SupabaseApi
 {
@@ -24,16 +28,25 @@ public class SupabaseApi
         _httpClient.DefaultRequestHeaders.Add("Accept", "application/json");
     }
 
-    public async Task<string> GetProdutosAsync()
+    public async Task<List<TelaFacilLauncher.Shortcut>> GetAtalhosAsync()
     {
-        // Endpoint da tabela 'produtos'
         string url = _baseUrl + "/rest/v1/atalhos";
 
-        var response = await _httpClient.GetAsync(url);
+        var request = new HttpRequestMessage(HttpMethod.Get, url);
+
+        // Cabeçalhos padrão Supabase
+        request.Headers.Add("Accept", "application/json");
+
+        var response = await _httpClient.SendAsync(request);
         response.EnsureSuccessStatusCode();
 
         var responseData = await response.Content.ReadAsStringAsync();
-        return responseData;  // JSON com os dados da tabela
+
+
+        // Converte o JSON para uma lista de objetos Atalho
+        var atalhos = JsonConvert.DeserializeObject<List<TelaFacilLauncher.Shortcut>>(responseData);
+
+        return atalhos;
     }
 
     public async Task<string> InserirAtalhoAsync(string nome, string caminho)
@@ -55,5 +68,22 @@ public class SupabaseApi
 
         var responseData = await response.Content.ReadAsStringAsync();
         return responseData; // Normalmente retorna o objeto inserido
+    }
+
+    public async Task<string> DeletarAtalhoAsync(string nome_atalho)
+    {
+        //string url = $"{_baseUrl}/rest/v1/atalhos?id=eq.{nome_atalho}";
+        string url = _baseUrl + "/rest/v1/atalhos?nome_atalho=eq." + nome_atalho;
+
+        var request = new HttpRequestMessage(HttpMethod.Delete, url);
+
+        // Importante: para que o Supabase retorne dados após o DELETE (opcional)
+        request.Headers.Add("Prefer", "return=representation");
+
+        var response = await _httpClient.SendAsync(request);
+        response.EnsureSuccessStatusCode();
+
+        var responseData = await response.Content.ReadAsStringAsync();
+        return responseData; // Pode conter os dados deletados, dependendo da configuração
     }
 }
